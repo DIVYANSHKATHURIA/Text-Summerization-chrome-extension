@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "Draggable Floating Div",
+    "version": "1.0",
+    "description": "A Chrome extension that adds a draggable floating div to web pages.",
+    "permissions": ["activeTab", "scripting"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_title": "Show Floating Div"
+    }, 
+    "icons": {
+        "16": "icons/icon16.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+    },
+    "web_accessible_resources": [
+      {
+        "resources": ["popup.html", "popup.css"],
+        "matches": ["<all_urls>"]
+      }
+    ]
+  }
+  

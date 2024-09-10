@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floating Div</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div id="loadingOverlay" style="display: none;">Processing...</div>
+    <form id="floatingForm">
+        <div class="header">Text Summarizer</div>
+        <textarea id="floatingTextInput" name="data" placeholder="Enter text here..." rows="6"></textarea>
+        <div class="word-count" id="inputWordCount">Word count: 0</div>
+        <div class="slider-container">
+            <input type="range" min="0" max="2" step="1" value="0" class="slider" id="floatingSummaryLength">
+            <div class="slider-labels">
+                <span>Short</span>
+                <span>Medium</span>
+                <span>Long</span>
+            </div>
+        </div>
+        <button type="button" id="floatingSummarizeButton">Summarize</button>
+        <textarea id="floatingResultTextarea" readonly rows="6"></textarea>
+        <div class="word-count" id="outputWordCount">Word count: 0</div>
+        <button type="button" id="floatingCopyButton">Copy Text</button>
+        <button type="button" id="closeButton">&times;</button>
+    </form>
+    <script src="popup.js"></script>
+</body>
+</html>
