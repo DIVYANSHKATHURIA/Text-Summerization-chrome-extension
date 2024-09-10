@@ -2,7 +2,9 @@
 
 ## Overview
 
-This Chrome extension creates a floating div on web pages that allows users to summarize text. The floating div includes a text area for input, a range slider to adjust summary length, a summarize button, and options to copy the result. The div can be dragged around the screen for convenience.
+This Chrome extension provides a user-friendly interface for text summarization directly within web pages. It leverages the power of the [Facebook BART model](https://api-inference.huggingface.co/models/facebook/bart-large-cnn) from Hugging Face, a state-of-the-art model for generating high-quality text summaries.
+
+The extension creates a floating div that allows users to input text, adjust the summary length, and view the summarized output without leaving their current webpage. By integrating the advanced BART model, the extension ensures that summaries are both concise and informative, making it an effective tool for users who need quick and accurate text summaries.
 
 ## Features
 
