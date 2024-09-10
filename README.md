@@ -51,6 +51,9 @@ The extension creates a floating div that allows users to input text, adjust the
 3. **Drag the Floating Div**
 
    - Click and hold the header of the floating div to drag it to your desired position on the screen.
+  
+![Screenshot (29)](https://github.com/user-attachments/assets/6f831fbd-92ac-4ebe-aa4a-b6974cc82455)
+
 
 ## Troubleshooting
 
@@ -74,4 +77,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-For any questions or support, please contact [divyanshkathuria4@gmail.com](mailto: divyanshkathuria4@gmail.com).
+For any questions or support, please contact divyanshkathuria4@gmail.com.
